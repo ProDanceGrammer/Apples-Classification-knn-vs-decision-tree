@@ -76,8 +76,9 @@ pip install -r requirements.txt
 ```
 
 ### 4. Run the main script
+```
 python src/main.py
-
+```
 
 ### Configuration (config.yaml)
 All project settings — model parameters, and visualization options — are stored in:
@@ -100,13 +101,13 @@ model:
 
 The folder:
 ```
-    src/visualization
+src/visualization
 ```
 contains all plotting modules with functions, including:
 
-Histograms of numerical features
-Boxplots for detecting outliers
-Scatter plots to find the correlations
+- Histograms of numerical features
+- Boxplots for detecting outliers
+- Scatter plots to find the correlations
 
 Plots are generated using Matplotlib and Seaborn.
 
