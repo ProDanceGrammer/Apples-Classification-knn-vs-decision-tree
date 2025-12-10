@@ -17,7 +17,7 @@ The goal is to evaluate which model performs better and to provide a clean, modu
 
 
 ## Project Structure
-
+```
 Apples-Classification-knn-vs-decision-tree/
 │
 ├── data/
@@ -51,7 +51,7 @@ Apples-Classification-knn-vs-decision-tree/
 │
 ├── requirements.txt
 └── README.md
-
+```
 
 ---
 
