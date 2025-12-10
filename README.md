@@ -6,7 +6,7 @@ The goal is to evaluate which model performs better and to provide a clean, modu
 
 ---
 
-## Features
+### Features
 
 - Fully reproducible pipeline (data → preprocessing → modeling → evaluation)
 - Visualization modules (histograms, boxplots, scatter plots)
@@ -53,6 +53,7 @@ Apples-Classification-knn-vs-decision-tree/
 └── README.md
 ```
 
+
 ---
 
 ##  How to Run the Project
@@ -80,6 +81,7 @@ pip install -r requirements.txt
 python src/main.py
 ```
 
+
 ### Configuration (config.yaml)
 All project settings — model parameters, and visualization options — are stored in:
 ```
@@ -97,6 +99,7 @@ model:
   min_samples_split: 2
 ```
 
+
 ### Visualizations
 
 The folder:
@@ -112,6 +115,7 @@ contains all plotting modules with functions, including:
 Plots are generated using Matplotlib and Seaborn.
 
 
+
 ### Machine Learning Models Used
 
 This project uses:
@@ -124,6 +128,7 @@ This project uses:
 
 The task is binary classification — predicting whether an apple is "good" or "bad".
 
+
 ### Tech Stack
 
 - Python 3.10+
@@ -133,6 +138,7 @@ The task is binary classification — predicting whether an apple is "good" or "
 - Matplotlib
 - Seaborn
 - PyYAML
+
 
 
 ## Author
