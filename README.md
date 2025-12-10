@@ -138,7 +138,9 @@ The task is binary classification — predicting whether an apple is "good" or "
 ## Author
 
 Vasyl Yarmolenko
+
 Machine Learning Engineer / Data Science enthusiast
 
 GitHub: https://github.com/Prodancegrammer
+
 LinkedIn: https://www.linkedin.com/in/vasyl-yarmolenko-ba427a255/
