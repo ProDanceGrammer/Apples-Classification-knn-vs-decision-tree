@@ -58,22 +58,22 @@ Apples-Classification-knn-vs-decision-tree/
 ##  How to Run the Project
 
 ### 1. Clone the repository
-bash
+```
 git clone https://github.com/Prodancegrammer/Apples-Classification-knn-vs-decision-tree.git
 cd Apples-Classification-knn-vs-decision-tree
-
+```
 
 ### 2. Create a virtual environment
-
+```
 python3 -m venv venv
 source venv/bin/activate     # macOS / Linux
 venv\Scripts\activate        # Windows
-
+```
 
 ### 3. Install dependencies
-
+```
 pip install -r requirements.txt
-
+```
 
 ### 4. Run the main script
 python src/main.py
@@ -81,12 +81,12 @@ python src/main.py
 
 ### Configuration (config.yaml)
 All project settings — model parameters, and visualization options — are stored in:
-
+```
 configs/config.yaml
-
+```
 
 Example:
-
+```
 seed: 210029807
 test_size: 0.2
 
@@ -94,13 +94,14 @@ model:
   n_neighbors: 9
   max_depth: 9
   min_samples_split: 2
-
+```
 
 ### Visualizations
 
 The folder:
+```
     src/visualization
-
+```
 contains all plotting modules with functions, including:
 
 Histograms of numerical features
