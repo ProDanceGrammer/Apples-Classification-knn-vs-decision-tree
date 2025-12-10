@@ -1,0 +1,7 @@
+seed: 210029807
+test_size: 0.2
+
+model:
+  n_neighbors: 9
+  max_depth: 9
+  min_samples_split: 2
